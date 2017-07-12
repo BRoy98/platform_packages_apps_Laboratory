@@ -57,4 +57,9 @@
         android:layout="@layout/preference_quick_settings"
         android:title="@string/quick_settings_category" />
 
-</PreferenceScreen>
+ 
+    <PreferenceScreen 
+            android:key="network_traffic_state" 
+            android:fragment="com.atomicos.laboratory.fragments.NetworkTraffic" 
+            android:title="@string/network_traffic_title" /> 
+   </PreferenceScreen>
